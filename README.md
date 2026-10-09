@@ -28,7 +28,7 @@
 | **Monitoria de qualidade com IA** *(em breve)* | Pipeline que avalia transcrições de atendimentos com LLM, grava as notas no banco e gera relatórios em PDF. | n8n · OpenAI · PHP · MySQL · Docker |
 | [**Gerador de Box Shadow**](https://github.com/wagnerglongo/Box-shadow) | Ferramenta para criar sombras CSS com pré-visualização em tempo real. [Demo](https://box-shadow.vercel.app) | JavaScript |
 | [**Gerador de QR Code**](https://github.com/wagnerglongo/gerador-de-QRCode) | Gera QR Codes a partir de qualquer texto ou URL. [Demo](https://gerador-de-qr-code-one.vercel.app) | JavaScript · API REST |
-| [**Site Chácara**](https://github.com/wagnerglongo/site-chacara) | Site de divulgação e reserva para aluguel de chácara. [Demo](https://site-chacara-tau.vercel.app) | HTML · CSS |
+
 
 ## 📫 Contato
 
