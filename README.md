@@ -17,6 +17,8 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -47,6 +49,22 @@ O cliente monta o pedido no celular e envia pronto no WhatsApp da loja; o dono c
 Ficha técnica com custo real por receita (inclusive receitas dentro de receitas, com detecção de ciclo), baixa de estoque na produção, vendas, despesas e fluxo de caixa com lucro por produto. Regras de negócio isoladas em classes de domínio, todas cobertas por testes.
 
 `PHP 8` `SQLite/MySQL` `PHPUnit` `Docker` `GitHub Actions`
+
+### [Portal de autoatendimento para negociação](https://github.com/wagnerglongo/autoatendimento-cobranca)
+
+<a href="https://github.com/wagnerglongo/autoatendimento-cobranca"><img src="https://raw.githubusercontent.com/wagnerglongo/autoatendimento-cobranca/main/docs/telas.webp" alt="Telas do portal no celular: CPF, código por SMS, propostas e acordo" width="100%"></a>
+
+O cliente negocia a dívida sozinho pelo celular: CPF, código por SMS, propostas do credor, acordo e boleto. Código de verificação com HMAC, validade e limite de tentativas, chave de idempotência para não duplicar acordo, autorização por recurso no download de boleto, cliente HTTP com retry e renovação de token, CSP estrita e funil de conversão sem dado pessoal. Testes de ponta a ponta contra o simulador do credor.
+
+`PHP 8` `SQLite/MySQL` `cURL` `PHPUnit` `Docker` `GitHub Actions`
+
+### [Monitoria IA](https://github.com/wagnerglongo/monitoria-ia)
+
+<a href="https://github.com/wagnerglongo/monitoria-ia"><img src="https://raw.githubusercontent.com/wagnerglongo/monitoria-ia/main/docs/ligacao.webp" alt="Avaliação de uma ligação com critérios, evidências e transcrição" width="100%"></a>
+
+Avalia a qualidade das ligações do call center com IA: transcreve, classifica cada critério da rubrica com o trecho que o justifica e calcula a nota em código determinístico (a IA nunca dá a nota). Saída estruturada com JSON Schema gerado da rubrica, validação com Pydantic, fila com reserva entre workers e retentativa, painel por operador e PDF para feedback. Nasceu de um fluxo no n8n que reescrevi como serviço.
+
+`Python` `FastAPI` `SQLAlchemy` `PostgreSQL` `OpenAI` `pytest` `Docker`
 
 ## 🧩 Front-end e ferramentas
 
