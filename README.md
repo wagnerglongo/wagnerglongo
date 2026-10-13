@@ -34,6 +34,14 @@ CRM de call center que escrevi e mantenho em produção numa operação real de 
 
 `PHP 8` `MySQL` `Redis` `Debezium` `Redpanda` `OpenSearch` `ClickHouse` `Docker Compose` `PHPUnit`
 
+### [Plataforma EAD · cursos online com certificado](https://github.com/wagnerglongo/plataforma-ead)
+
+<a href="https://github.com/wagnerglongo/plataforma-ead"><img src="https://raw.githubusercontent.com/wagnerglongo/plataforma-ead/main/docs/screenshots/destaque.webp" alt="Player do aluno com progresso e certificado em PDF com QR Code" width="100%"></a>
+
+LMS completo em PHP puro, **sem framework e sem nenhuma dependência**: catálogo com busca e filtros, área do aluno que retoma a aula no minuto em que parou e mede o tempo realmente assistido, testes por módulo e avaliação final, certificado em PDF com QR Code e página pública de validação (assinatura HMAC detecta adulteração). Painel com relatórios e exportação CSV, perfis com permissões, auditoria, backup e ferramentas de LGPD (exportação de dados, anonimização, consentimentos). Gerador de PDF, QR Code, cliente SMTP e gráficos SVG escritos do zero. Testes ponta a ponta em Playwright. **[No ar](https://plataforma-ead.wglsoftware.com)**.
+
+`PHP 8` `MySQL` `JavaScript` `Playwright` `Apache/LiteSpeed`
+
 ### [Cardápio digital com pedido no WhatsApp](https://github.com/wagnerglongo/cardapio-digital)
 
 <a href="https://github.com/wagnerglongo/cardapio-digital"><img src="https://raw.githubusercontent.com/wagnerglongo/cardapio-digital/main/docs/cardapio-celular.png" alt="Cardápio no celular, com carrinho e pedido" width="100%"></a>
