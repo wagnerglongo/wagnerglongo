@@ -74,6 +74,14 @@ Avalia a qualidade das ligações do call center com IA: transcreve, classifica 
 
 `Python` `FastAPI` `SQLAlchemy` `PostgreSQL` `OpenAI` `pytest` `Docker`
 
+### [Modelos de site · WGL Software](https://modelos.wglsoftware.com)
+
+<a href="https://modelos.wglsoftware.com/demo-advogada/"><img src="img/modelo-advocacia.webp" alt="Modelo de site para advocacia: abertura com nome e OAB da advogada e áreas de atuação em abas" width="100%"></a>
+
+Galeria e painel que uso para vender sites a pequenos negócios, em PHP sem banco de dados: cada site é uma ficha JSON editada por formulário e publicada como HTML estático, com prévia por link secreto, página de proposta e exportação em `.zip` para o domínio do cliente. O modelo mais novo é para **advocacia**: áreas de atuação em abas de pasta, formulário que monta a mensagem e abre no WhatsApp sem gravar dados, cliques medidos no Google Tag Manager só depois do aceite de cookies, SEO local com dados estruturados `Attorney` e textos dentro das regras de publicidade da OAB (Provimento 205/2021). **[Ver a demonstração](https://modelos.wglsoftware.com/demo-advogada/)**.
+
+`PHP 8` `JSON` `HTML/CSS` `JavaScript` `Schema.org` `Google Tag Manager`
+
 ## 🧩 Front-end e ferramentas
 
 | Projeto | O que é | No ar |
